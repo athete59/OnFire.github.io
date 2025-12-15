@@ -436,7 +436,7 @@ table th{font-size: 1.5em;}
 color: rgb(0, 0, 0);}
 
 
-@media  screen and (max-width:930px){
+@media  screen and (max-width:767px){
 
     
     #Nossa3{
@@ -456,14 +456,14 @@ flex-wrap: wrap;
     color:#fdfcfc ;
     background-color:#33312f ;
     opacity: 90%;
-    padding: 0.4em 0.8em 0.4em 0.8em;
+    padding: 0.4em 0.6em 0.4em 0.6em;
     border-radius:30px;
   top: 130%;
   left: 40%;
   transform: translate(-50%, -50%);
   z-index: 1;
   font-family: 'Horta';
-  font-size: 2em;
+  font-size: 1.7em;
   text-shadow: 1px 1px #504b4b;
   text-decoration: none;
 }
@@ -473,7 +473,7 @@ flex-wrap: wrap;
     text-shadow: 1px 1px #081ab9c6;
     background-color: #ffffff;
     opacity: 95%;
-    padding: 0.5em 0.5em 0.5em 0.5em;
+    padding: 0.4em 0.4em 0.4em 0.4em;
     border-radius:30px;
     font-size: 2.25em;
 }
