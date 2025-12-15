@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On fire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header> 
+    <nav id="menu">
+        <div id="logo">
+        <h1>On fire</h1>
+        <img src="imagens/On (3).png" alt="logo" width="60px">
+        </div>
+        <div id="insidemenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sobrenos.html">Sobre nós</a></li>
+                <li><a href="./index.html#uni">Nossas unidades</a></li>
+                <li><a href="./index.html#pacotes">Pacotes & Serviços</a></li>
+                <li><a href="imc.html">Calculadora IMC</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <main>
+    <img id="imgimc" src="https://images.pexels.com/photos/23109978/pexels-photo-23109978.jpeg" alt="homem treinando">
+<!--Calculadora Aqui-->
+    <div id="imc">
+    <h2>Calculadora IMC</h2> 
+    <div id="calculadora">
+        <div id="calc">
+            <p>Calcule o seu IMC agora mesmo!</p>
+            <label >Altura</label>
+            <input type="number" placeholder="Sua altura em m" id="altura">
+            <label>Peso</label>
+            <input type="number" placeholder="Seu peso em kg" id="peso">
+            <button type="button" onclick="calcular()">Calcular</button>
+            <p id="resultado"></p>
+        </div>
+    </div>
+    
+    <div id="tab">
+        <h3>Confira em qual valor o seu imc se enquadra:</h3>
+        <table>
+        <thead>
+            <th>IMC</th>
+            <th>Classificação</th>
+            <th>Grau de Obesidade</th>
+        </thead>
+        <tbody>  
+
+    <tr>
+        <td>Menor que 18,5</td>
+        <td>Magreza</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>Entre 18,5 e 24,9</td>
+        <td>Normal</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>Entre 25 e 29,9</td>
+        <td>Sobrepeso</td>
+        <td>I</td>
+    </tr>
+    <tr>
+        <td>Entre 30 e 39,9</td>
+        <td>Obesidade</td>
+        <td>II</td>
+    </tr>
+    <tr>
+        <td>Maior que 40</td>
+        <td>Obesidade grave</td>
+        <td>III</td>
+    </tr>
+        </tbody>
+        </table>
+    </div>
+</div>
+    </main>
+    <footer>     
+    <div class="rodape">
+        <div>
+            <h2>Nossa unidade sede:</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d570.3513213575646!2d-43.22528653341963!3d-19.632008667170684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa5a1a6640a1ae7%3A0x6e4ed07a10ee5af8!2sAv.%20Ver.%20Os%C3%B3rio%20Sampaio%2C%20151%20-%20Vila%20Santa%20Rosa%2C%20Itabira%20-%20MG%2C%2035900-700!5e0!3m2!1spt-BR!2sbr!4v1750596577350!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+            <h2>Contato</h2>
+        <ul>
+            Deseja abrir uma filial da On fire em sua região ou falar conosco? Entre em contato pelo email: <i>Onfire@gmail.com</i>
+            <div class="contatos">
+                <div>
+                    <li><a href="#"><img src="https://img.icons8.com/ios/50/FFFFFF/facebook-new.png" alt="logo facebook"></a></li>
+                </div>
+                <div>
+                    <li><a href=""><img src="https://img.icons8.com/?size=100&id=48841&format=png&color=FFFFFF" alt="logo instagram"></a></li>
+                </div>
+                <div>
+                    <li><a href="#"><img src="https://img.icons8.com/ios7/600/FFFFFF/whatsapp.png" alt="whatsapp icon"></a></li>
+                </div>
+            </div>
+        </ul>
+        </div>
+        </div>
+    </div>
+
+
+
+<p>Todos os direitos reservados  ©On fire</p>
+
+
+    </footer>
+<script src="/arq.js" defer></script>
+</body>
+</html>

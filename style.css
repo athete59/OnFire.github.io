@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+
+
+@font-face {
+    font-family: "adlery";
+    src: url('adlery-pro.blockletter.ttf');}
+@font-face {
+   font-family: "Horta";
+    src: url('Horta\ demo.otf');
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{background-color: rgb(209, 209, 209);
+font-family: "Gabarito", sans-serif;
+}
+header{background-color: #657275;
+    /*808080*/
+padding: 10px;}
+
+footer{
+    background-color: rgb(30, 30, 30);
+    padding: 4em;
+    color: white;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.rodape div{margin: 2em;}
+
+.rodape h2{margin-bottom: 2em;}
+
+
+
+
+
+h1{font-family:'Adlery';
+    font-size: 4em;
+}
+
+main h2{text-align: center;
+font-family:'Trade Winds';
+font-size: 2em;
+text-shadow: 2px 2px 1px white;
+}
+
+
+
+
+p{margin-left: 4em;}
+
+
+
+#sobre{ font-family: 'Trade Winds';
+color: #ff6200; 
+background-color: #fba88a;
+text-align: center;
+padding: 1.2em;
+text-shadow: 0.5px 0.5px black;
+}
+
+
+
+#logo{display: flex;
+align-items: baseline;
+
+
+}
+
+#insidemenu ul{
+    font-family: 'Trade Winds';
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+#insidemenu li{   padding: 50px;}
+
+nav li a{color: white;
+text-decoration: none;}
+nav li a:hover{color:rgb(164, 189, 255);}
+#menu{ color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+#img1{
+    object-fit: cover;
+    object-position: 50% 80%;
+    overflow-clip-margin: unset;
+    width: 100%; height: 480px;
+    vertical-align: middle;
+}
+
+#clickplano a{position:absolute;
+    color:#fdfcfc ;
+    background-color:#33312f ;
+    opacity: 90%;
+    padding: 0.4em 0.8em 0.4em 0.8em;
+    border-radius:30px;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-family: 'Horta';
+  font-size: 2em;
+  text-shadow: 1px 1px #504b4b;
+  text-decoration: none;
+}
+
+#clickplano a:hover{
+    color: #5db9ff;
+    text-shadow: 1px 1px #081ab9c6;
+    background-color: #ffffff;
+    opacity: 95%;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius:30px;
+    font-size: 2.25em;
+
+ 
+}
+
+.contatos{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+
+.contatos img{
+    width: 30px;
+    margin: 1em;
+}
+
+
+
+
+
+
+/*Coisas pra página index*/
+
+#anos{
+color:#e0e0e0 ;
+background-color:#33312f;
+text-shadow: 1px 1px 2px black;
+text-align: center;
+font-size: em;
+padding: 50px;
+font-family:'Adlery';
+top: 0;
+margin-block: 0px;
+font-size: 3em;}
+
+
+
+
+
+.uni p{font-size: 1.5em;
+margin-bottom: 1.2em;}
+
+.uni h2, .pacotes h2{margin-bottom: 1.5em;}
+
+
+.uni{background-color:#a9bec3;
+padding: 6em 0em 10em 0em;
+}
+
+
+
+.unidade{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.unidade div{
+margin-top: 1em;
+color: black;
+background-color: #d7e5e8;
+padding: 0.8125em;
+    text-align: center; 
+    border-radius: 0.625em
+
+}
+
+
+.unidade div img{
+   margin-bottom: 0.9375em;
+    margin-top: 0.625em;
+    width: 15.625em;
+    border-radius: 0.625em;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+.pacotes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e0e3e3;
+    padding: 6em 0em 8em 0em;
+
+
+  
+}
+.pacotes h3{font-size: 1.8em; color: #9ec4f8;
+text-shadow: 1.5px 1.5px 1px #201d3a;
+background-color: rgb(38, 36, 36);
+border: 3px #2759a0 solid;
+display: inline-block;
+border-radius: 10px;
+padding: 0.5em 20em 0.5em 20em  ;}
+
+
+.pacotes img{width: 35%;
+border-radius: 1em;
+box-shadow: 1px 1px 5px rgb(0, 18, 108);
+}
+
+
+
+
+
+.pacotes ul div{list-style-type: none;
+margin-top: 4em;
+margin-bottom: 4em;
+}
+
+
+.pacotes li{
+margin-bottom: 3em;
+margin-top: 3em;
+}
+
+div#tipoSer > h3 + ul>div> li {
+    font-size: 1.4em;
+    color: #000dff9a;
+    text-shadow: 1px 1px 1px #198cff;
+    font-weight: 900;
+}
+
+
+
+
+.planos div {
+display: flex;
+flex-direction: row;
+margin: 1em;
+justify-content: center;
+flex-wrap: wrap;
+
+
+}
+
+.planos div>div{background-color: #88a8f8;
+padding: 3em;
+border-radius: 1em;
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+
+
+
+}
+
+
+.planos p{margin: 1.2em;
+    font-size: 1.7em;
+    color: rgb(63, 63, 63);
+    font-weight: 500;
+    text-shadow: #1e2023c2 0.5px 0.5px 1px;
+
+}
+
+.planos li{font-size: 1.2em;}
+
+.planos h4{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color:#1805c6b9;
+    text-shadow: 1px 1px 1px rgb(206, 206, 212);
+font-weight: 800;}
+
+.planos h5{
+font-size: 2.2em;
+color: white;}
+
+.planos ul{list-style-type: none;}
+
+/*Cor boa */
+
+
+
+/*Coisas pra pagina Sobre nós*/
+
+#Nossa3{
+display: flex;
+flex-direction: row;
+align-items: center;
+
+margin: 5em 0em 0em 0em ;
+padding: 4em;
+background-color: #fba88a;
+flex-grow: 1;
+text-align: justify;
+
+}
+#Nossa3>div{margin-left: 5em;
+margin-right: 5em;}
+
+#Nossa3 h3{margin-bottom: 2em;
+margin-top: 2em;
+color: rgb(224, 0, 0);
+text-shadow: 0.5px 0.5px 1px rgb(255, 137, 137);}
+#imgdonas{text-align: center;
+margin: 2em;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+ flex-wrap: wrap;}
+
+#Nossa3 li{margin: 1em;}
+
+#imgdonas img{
+  
+   width: 280px;
+   height: 280px;
+   border-radius: 50%;
+   overflow-clip-margin: unset;
+   object-fit: cover;
+   margin: 2em;
+  
+}
+
+#quem{background-color: #1d53b076;
+padding: 4em;
+text-align: justify;}
+
+#quem p, #quem h3{margin: 1em;
+
+}
+#quem h3{color: white;
+font-size: 2em;}
+
+/*Coisas pra página IMC*/
+
+
+#imgimc{object-fit: cover;
+width: 100%;
+height: 450px;
+object-position: 40% 25%;
+vertical-align: middle;
+}
+
+#imc{background-color: #abc6c5;
+padding: 2em 2em 10em 2em;
+}
+
+#imc h2{color: #0b5a57; margin-top: 1.5em;}
+
+#calculadora{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#calc{
+    margin-left: 1.5em;
+margin-top: 2em;
+
+background-color: #1377748e;
+padding: 4em 2em 4em 2em;
+display: inline-block;
+width: 50%;
+border-radius: 15px;
+text-align: center;
+
+}
+
+#calculadora p, label{margin: 2em;
+font-weight: 600;}
+
+#calculadora p{font-size: 2em;
+color: rgb(255, 248, 236);
+text-shadow: 1px 1px 1px rgb(80, 79, 79);}
+
+input, button{border-radius: 8px;
+padding: 0.5em;}
+
+button{
+    font-family: "Gabarito";
+    font-size: 1em;
+    padding: 0.5em 2em 0.5em 2em;
+    margin: 2em;
+
+}
+
+table{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    background-color: rgb(0, 80, 80);
+    text-align: center;
+    width: 50%;
+    color:white;
+}
+
+table th{font-size: 1.5em;}
+
+#tab{justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 3em;
+    flex-direction: column;
+}
+
+#tab h3{margin-bottom: 2em;
+color: rgb(0, 0, 0);}
+
+
+@media  screen and (max-width:930px){
+
+    
+    #Nossa3{
+flex-wrap: wrap;
+
+}
+
+#menu{flex-wrap: wrap; flex-direction: column;}
+
+#insidemenu ul{
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+#clickplano a{position:absolute;
+    color:#fdfcfc ;
+    background-color:#33312f ;
+    opacity: 90%;
+    padding: 0.4em 0.8em 0.4em 0.8em;
+    border-radius:30px;
+  top: 130%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-family: 'Horta';
+  font-size: 2em;
+  text-shadow: 1px 1px #504b4b;
+  text-decoration: none;
+}
+
+#clickplano a:hover{
+    color: #5db9ff;
+    text-shadow: 1px 1px #081ab9c6;
+    background-color: #ffffff;
+    opacity: 95%;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius:30px;
+    font-size: 2.25em;
+}
+
+
+
+.rodape{
+    flex-wrap: wrap;
+    
+
+}
+
+.rodape p{margin: 0;
+font-size: 1em;
+width: 80%;}
+
+.contatos div{margin: 0em; }
+
+iframe{width: 100%;}
+
+.pacotes h3{font-size: 1.4em; color: #9ec4f8;
+text-shadow: 1.5px 1.5px 1px #201d3a;
+background-color: rgb(38, 36, 36);
+width: 50%;
+border: 3px #2759a0 solid;
+display: inline-block;
+border-radius: 10px;
+padding: 0.5em 6em 0.5em 6em  ;}
+}
+
