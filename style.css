@@ -227,7 +227,7 @@ background-color: rgb(38, 36, 36);
 border: 3px #2759a0 solid;
 display: inline-block;
 border-radius: 10px;
-padding: 0.5em 20em 0.5em 20em  ;}
+padding: 0.5em 15em 0.5em 15em  ;}
 
 
 .pacotes img{width: 35%;
@@ -494,7 +494,7 @@ width: 80%;}
 
 iframe{width: 100%;}
 
-.pacotes h3{font-size: 1.1em; color: #9ec4f8;
+.pacotes h3{font-size: 1.2em; color: #9ec4f8;
 text-shadow: 1.5px 1.5px 1px #201d3a;
 background-color: rgb(38, 36, 36);
 width: 50%;
@@ -502,7 +502,6 @@ border: 3px #2759a0 solid;
 display: inline-block;
 border-radius: 10px;
 padding: 0.5em 6em 0.5em 6em  ;}
+
 }
-
-
 
